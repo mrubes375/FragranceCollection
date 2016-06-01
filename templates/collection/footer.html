@@ -1,40 +1,8 @@
 {% load static from staticfiles %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Footer</title>
-
-    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
-    <link rel="stylesheet" href="{% static "css/font-awesome.css" %}">
-    <link rel="stylesheet" href="{% static "css/footer.css" %}">
-
-
-  </head>
-  <body>
+  <footer class="footer navbar-fixed-bottom">
     <div class="container f-cont">
-      <footer class="footer navbar-fixed-bottom">
-        <div class="container f-cont">
-         <i class="fa fa-copyright">Matthew Rubenstein</i>
-         <a href="https://www.github.com/mrubes375"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-         <a href="https://www.linkedin.com/in/matthew-rubenstein-06693bb5"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
-         <a href="mailto:matthew.rubenstein@uconn.edu"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
-        </div>
-      </footer>
+      <i class="fa fa-copyright fa-2x">Matthew Rubenstein</i><a href="https://www.github.com/mrubes375"><i class="fa fa-github fa-3x hovercolor" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/matthew-rubenstein-06693bb5"><i class="fa fa-linkedin fa-3x hovercolor" aria-hidden="true"></i></a>
+      <a href="mailto:matthew.rubenstein@uconn.edu"><i class="fa fa-envelope fa-3x hovercolor" aria-hidden="true"></i></a>
     </div>
-    <script src="{% static "js/jquery-2.2.3.min.js" %}"></script>
-    <script src="{% static "js/bootstrap.min.js" %}"></script>
-    <script>
-    $('.fa-github').hover(
-      function(object){
-        var gh_color = $(this).css("color");
-        console.log(gh_color);
-        console.log(this);
-        $('.fa-copyright').style("color", gh_color);
-      }
-    );
-    </script>
-  </body>
-</html>
+  </footer>
