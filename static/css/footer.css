@@ -1,0 +1,59 @@
+.fa-envelope {
+  color: white;
+}
+
+.fa-envelope:hover {
+  color: #86818b
+}
+
+.fa-github{
+  color: #6e5494;
+}
+
+.fa-github:hover {
+  color: #3c2959;
+}
+
+.fa {
+  margin: 32px;
+  display: inline-block;
+  position: relative;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  overflow-x: hidden;
+}
+
+.footer .f-cont{
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f4f4;
+  clear: both;
+}
+
+.f-cont {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+
+/*body > .f-cont {
+  padding: 60px 15px 0;
+}
+.f-cont .fa {
+  margin: 20px 0;
+}
+
+.footer > .f-cont {
+  padding-right: 15px;
+  padding-left: 15px;
+}*/
