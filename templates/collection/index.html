@@ -1,22 +1,22 @@
+{% extends "collection/base.html" %}
 {% load staticfiles %}
-{% include "collection/header.html" %}
-{% include "collection/navbar.html" %}
-{{ All }}
-<div class="col-md-12">
-  <div class="container">
-    <img class="niche_frag" src="{% static "images/niche_frag.jpg" %}"
+{% block title %}FragranceCollection{% endblock title %}
+{% block content %}
+<div class="container">
+  <div class="col-md-12">
+    <div class="row">
+      <img class="niche_frag" src="{% static "images/niche_frag.jpg" %}"
+    </div>
+  </div>
+  <div class="row hp-text">
+    <h1 class="lead faa-pulse animated-hover">
+      Welcome to FragranceCollection!
+    </h1>
+  </div>
+  <div class="row hp-text">
+    <h2 class="faa-pulse animated-hover">
+      FragranceCollection allows fragrance enthusiasts to keep track of their collections
+    </h2>
   </div>
 </div>
-<div class="col-md-6">
-  <p>
-    Hello
-  </p>
-</div>
-<div class="col-md-6">
-  <p>
-    Hello
-  </p>
-</div>
-{% include "collection/scripts.html" %}
-{% include "collection/footer.html" %}
-{% include "collection/end.html" %}
+{% endblock content %}

@@ -8,11 +8,11 @@
 }
 
 .container-fluid {
-  background-color: rgb(63, 61, 66);
+  background-color: #CCCCCC;
 }
 
 .active{
-  background-color: rgb(112, 112, 112);
+  background-color: #cdc6c6;
 }
 
 a.nav-item {

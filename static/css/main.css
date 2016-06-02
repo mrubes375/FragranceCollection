@@ -1,0 +1,13 @@
+.niche_frag {
+  width: 480px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.row {
+  text-align: center;
+}
+
+.hp-text {
+  font-family: American Typewriter Light;
+}
